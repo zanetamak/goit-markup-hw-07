@@ -1,7 +1,9 @@
-// UTILS
-@import "./utils/variables.scss";
-@import "./utils/basic.scss";
+// BASE
+@import "./common/basic";
+@import "./common/container";
 
+// UTILS
+@import "./utils/variables";
 
 // COMPONENTS 
 

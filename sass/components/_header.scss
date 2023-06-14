@@ -29,6 +29,7 @@ display: inline;
 .page-header__contact-item {
 margin-right: 50px;
 display: inline;
+flex-wrap: wrap;
 }
 
 .page-header__nav-link {
@@ -71,7 +72,7 @@ color: var(--second-line-color);
 display: flex;
 color: var(--focus-color);
 
-   &after  {     
+   &::after  {     
     color: var(--focus-color);
     position: absolute;
     background-color: var(--focus-color);
