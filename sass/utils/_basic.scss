@@ -41,12 +41,17 @@ a:link {
     text-decoration: inherit;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto
-}
-
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.button {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: inherit;
+
 }
