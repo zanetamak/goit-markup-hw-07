@@ -127,11 +127,11 @@ height: 50px;
 @include font(700, 16px, 1.8, 0.06em);
 margin-left: 12px;
 color: var(--main-background);
-    background: var(--focus-color);
-    box-shadow: var(--box-shadow-hero);
-    border-radius: 4px;
-    cursor: pointer;
-    justify-content: space-between;
+ background: var(--focus-color);
+box-shadow: var(--box-shadow-hero);
+border-radius: 4px;
+cursor: pointer;
+justify-content: space-between;
  
 }
 
