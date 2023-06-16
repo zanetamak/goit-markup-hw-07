@@ -382,64 +382,71 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="close-btn" data-modal-close>
-                <svg class="modal-icon" width="11" height="11">
+            <button type="button" class="modal__close-btn" data-modal-close>
+                <svg class="modal__icon" width="11" height="11">
                     <use href="./images/icons.svg#icon-Vector">
                     </use>
                 </svg>
             </button>
             <form class="form-window">
-                <p class="modal-title">Zostaw swoje dane w formularzu ponizej</p>
-                <label class="label-title">Imie
-                    <div class="input-style">
-                        <input class="modal-window" type="text" name="name" required />
-                        <svg class="modal-window-icon" width="12" height="12">
+                <p class="form-window__title">Zostaw swoje dane w formularzu ponizej</p>
+                <label class="form-window__label">Imie
+                    <div class="form-window__box">
+                        <input class="form-window__input" 
+                        type="text" 
+                        name="name" 
+                        required />
+                        <svg class="form-window__icon" width="12" height="12">
                             <use href="./images/icons.svg#icon-Vectorname">
                             </use>
                         </svg>
                     </div>
                 </label>
                 <label>
-                    <label class="label-title">Telefon
-                        <div class="input-style">
-                            <input class="modal-window" type="tel" name="phone" required />
-                            <svg class="modal-window-icon" width="13" height="13">
+                    <label class="form-window__label">Telefon
+                        <div class="form-window__box">
+                            <input class="form-window__input" type="tel" name="phone" required />
+                            <svg class="form-window__icon" width="13" height="13">
                                 <use href="./images/icons.svg#icon-Vectorphone">
                                 </use>
                             </svg>
                         </div>
                     </label>
                     <label>
-                        <label class="label-title">Email
-                            <div class="input-style">
-                                <input class="modal-window" type="email" name="email" required />
-                                <svg class="modal-window-icon" width="15" height="12">
+                        <label class="form-window__label">Email
+                            <div class="form-window__box">
+                                <input class="form-window__input" type="email" name="email" required />
+                                <svg class="form-window__icon" width="15" height="12">
                                     <use href="./images/icons.svg#icon-Vectormail">
                                     </use>
                                 </svg>
                             </div>
                         </label>
                         <label>
-                            <label class="label-title">Komentarz
-                                <textarea class="modal-window comment" name="feedback" rows="5"
+                            <label class="form-window__label">Komentarz
+                                <textarea class="form-window__input comment" name="feedback" rows="5"
                                     placeholder="Wprowadź tekst" required></textarea>
                             </label>
 
-                            <label for="statute" class="checkbox-window">
-                                <input type="checkbox" class="checkbox-input" name="statute_acceptance" value="statute"
+                            <label for="statute" class="checkbox">
+                            
+                                <input type="checkbox" 
+                                class="checkbox__input" 
+                                name="statute_acceptance" 
+                                value="statute"
                                     id="statute" required>
 
-                                <span class="checkbox-icon">
-                                    <svg class="checkbox-vector" width="16" height="15">
+                                <span class="checkbox__icon">
+                                    <svg class="checkbox__vector" width="16" height="15">
                                         <use href="./images/icons.svg#icon-Vector-6"></use>
                                     </svg>
                                 </span>
 
-                                <p class="checkbox-agreement">Oświadczam iż akceptuję <a href=""
-                                        class="underline-link">Regulamin </a>
-                                    i <a href="" class="underline-link">Politykę Prywatności.</a></p>
+                                <p class="checkbox__text">Oświadczam iż akceptuję <a href=""
+                                        class="checkbox__links">Regulamin </a>
+                                    i <a href="" class="checkbox__links">Politykę Prywatności.</a></p>
                             </label>
-                            <div class="button-position"><button class="modal-window-button"
+                            <div class="form-window__button-position"><button class="form-window__button"
                                     type="submit">Wyślij</button>
                             </div>
             </form>
