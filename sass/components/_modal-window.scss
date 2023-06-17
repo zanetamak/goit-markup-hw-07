@@ -74,11 +74,15 @@
     border-color: var(--focus-color);
 }
 
-.form-window__input+:focus .form-window__icon {
+.form-window__input:focus +.form-window__icon {
     fill: var(--focus-color);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-window__input:checked+.form-window__icon {
+background-color: var(--focus-color);
+border-color: var(--focus-color);
 }
 
 .modal {
